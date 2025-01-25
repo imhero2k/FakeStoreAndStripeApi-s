@@ -25,5 +25,17 @@ This is an e-commerce web application that integrates with Stripe for payments a
 ### Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/imhero2k/FakeStoreAndStripeApi-s.git
+
+2 Navigate to the project folder:
+   cd FakeStoreAndStripeApi-s
+3 Install the dependencies:
+  npm install
+4 Create a .env file and add your Stripe API key (replace your_stripe_api_key with your actual key):
+  REACT_APP_STRIPE_KEY=your_stripe_api_key
+5 Start the application:
+  npm start
+This will launch the app on http://localhost:3000.
+
+Contributing
+If you'd like to contribute to this project, feel free to open an issue or submit a pull request. Please ensure that your code follows the existing style and includes appropriate tests.
